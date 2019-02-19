@@ -6,10 +6,11 @@
 
 Starbot is [GitHub's trending open-source](https://github.com/trending/) page, reincarnated as a Slack bot. It is also the sample referenced in the ["How to Deploy Your Slack Bots to Heroku"](https://blog.heroku.com/archives/2016/3/9/how-to-deploy-your-slack-bots-to-heroku) blog post.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Supported `/slash` commands
 
-Create a `/starbot` [custom slash command](https://api.slack.com/slash-commands), using the URL: `{app-name}.herokuapp.com/commands/starbot`. *Take note of the provided `token`, this is used to verify requests come from Slack.*
+Create a `/starbot` [custom slash command](https://api.slack.com/slash-commands), using the URL: `{app-name}.herokuapp.com/commands/starbot`. _Take note of the provided `token`, this is used to verify requests come from Slack._
 
 - `/starbot` or `/starbot help` - List available commands
 - `/starbot repos` - Display trending GitHub projects
@@ -33,6 +34,7 @@ SLACK_TEAM_TOKEN=xoxb...8WRqKWx
 NODE_ENV=development
 PORT=3000
 ```
+
 ### Run
 
 ```shell
@@ -70,4 +72,4 @@ $ heroku open
 ### License
 
 **[This project is licensed under the terms of the MIT license.](http://license-me.herokuapp.com)**
- -- [_Need your own? There's a button for that :wink:_](https://github.com/mattcreager/license)
+-- [_Need your own? There's a button for that :wink:_](https://github.com/mattcreager/license)
